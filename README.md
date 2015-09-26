@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/keyCat/node-steamspy.svg?branch=master)](https://travis-ci.org/keyCat/node-steamspy) [![NPM](https://nodei.co/npm/steamspy.png?compact=true)](https://www.npmjs.com/package/steamspy)
+[![Build Status](https://travis-ci.org/keyCat/node-steamspy.svg?branch=master)](https://travis-ci.org/keyCat/node-steamspy) [![NPM](https://nodei.co/npm/steamspy.png?mini=true)](https://www.npmjs.com/package/steamspy)
 
 # SteamSpy for Node.js
 An asynchronous client library for the [SteamSpy](http://steamspy.com/) [API](http://steamspy.com/api.php). At the moment, this API is really basic and not really suited for production.
