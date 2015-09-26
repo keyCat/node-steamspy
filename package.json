@@ -1,0 +1,28 @@
+{
+  "name": "steamspy",
+  "version": "1.0.0",
+  "description": "Steamspy.com API client library for Node.js",
+  "main": "./lib/steamspy.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "steamspy",
+    "steam",
+    "api"
+  ],
+  "author": "Ilya Gorbachevsky <igorbachevsky@gmail.com>",
+  "homepage": "https://github.com/keyCat/node-steamspy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyCat/node-steamspy"
+  },
+  "dependencies": {
+    "deep-extend": "^0.4.0",
+    "request": "^2.64.0",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "nock": "^2.13.0"
+  },
+  "license": "MIT"
+}
