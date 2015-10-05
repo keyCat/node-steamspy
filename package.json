@@ -1,6 +1,6 @@
 {
   "name": "steamspy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Steamspy.com API client library for Node.js",
   "main": "./lib/steamspy.js",
   "scripts": {
