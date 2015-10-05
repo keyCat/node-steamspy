@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/keyCat/node-steamspy.svg?branch=master)](https://travis-ci.org/keyCat/node-steamspy) [![NPM](https://nodei.co/npm/steamspy.png?mini=true)](https://www.npmjs.com/package/steamspy)
 
 # SteamSpy for Node.js
-An asynchronous client library for the [SteamSpy](http://steamspy.com/) [API](http://steamspy.com/api.php). At the moment, this API is really basic and not really suited for production.
+An asynchronous client library for the [SteamSpy](http://steamspy.com/) [API](http://steamspy.com/api.php).
 
 ```javascript
 var SteamSpy = require('steamspy');
@@ -21,7 +21,7 @@ client.all(function (err, response, data) {
 
 ## Options
 
-You may want supply options to new instance:
+You may want to supply options to new instance:
 
 ```javascript
 var SteamSpy = require('steamspy');
@@ -43,6 +43,20 @@ var client = new SteamSpy({
 `request_options` - options object for the [request](https://github.com/request/request) module
 
 Generally, you should be ok with default options.
+
+## Usage
+
+[API return format description](https://github.com/keyCat/node-steamspy/tree/master/examples#return-format-description)
+
+Methods:
+
+* [SteamSpy.request](https://github.com/keyCat/node-steamspy/tree/master/examples#steamspyrequest)
+* [SteamSpy.all](https://github.com/keyCat/node-steamspy/tree/master/examples#steamspyall)
+* [SteamSpy.appdetails](https://github.com/keyCat/node-steamspy/tree/master/examples#steamspyappdetails)
+* [SteamSpy.genre](https://github.com/keyCat/node-steamspy/tree/master/examples#steamspygenre)
+* [SteamSpy.top100in2weeks](https://github.com/keyCat/node-steamspy/tree/master/examples#steamspytop100in2weeks)
+* [SteamSpy.top100forever](https://github.com/keyCat/node-steamspy/tree/master/examples#steamspytop100forever)
+* [SteamSpy.top100owned](https://github.com/keyCat/node-steamspy/tree/master/examples#steamspytop100owned)
 
 ## Caveats
 
